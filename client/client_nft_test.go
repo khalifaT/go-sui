@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coming-chat/go-sui/account"
-	"github.com/coming-chat/go-sui/types"
+	"github.com/khalifaT/go-sui/account"
+	"github.com/khalifaT/go-sui/types"
 	"github.com/stretchr/testify/require"
 )
 

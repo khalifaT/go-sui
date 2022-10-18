@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/coming-chat/go-sui/types"
+	"github.com/khalifaT/go-sui/types"
 )
 
 // Create an unsigned transaction to mint a nft at devnet

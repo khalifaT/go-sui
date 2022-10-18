@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coming-chat/go-sui/types"
+	"github.com/khalifaT/go-sui/types"
 	"github.com/stretchr/testify/require"
 )
 
