@@ -84,6 +84,7 @@ type SignedTransaction struct {
 
 	// signer's public key
 	PublicKey *Base64Data `json:"pub_key"`
+	Mode      string      `json:"mode"`
 }
 
 type TransferObject struct {
@@ -184,6 +185,9 @@ func (te *TransactionEffects) GasFee() uint64 {
 }
 
 type ParsedTransactionResponse interface{}
+type TransactionResponseV2 struct {
+	EffectsCert TransactionResponse `json:"effectsCert"`
+}
 
 type TransactionResponse struct {
 	Certificate *CertifiedTransaction     `json:"certificate"`
